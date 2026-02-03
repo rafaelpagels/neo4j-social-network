@@ -73,7 +73,7 @@ O banco de dados foi construído seguindo as etapas abaixo:
 - `(:User)-[:SHARED]->(:Post)`
 - `(:Comment)-[:COMMENTED_ON]->(:Post)`
 - `(:User)-[:MEMBER_OF]->(:Group)`
-- `(:Group)-[:HAS_POST]->(:Post)`
+- `(:Post)-[:POSTED_IN]->(:Group)`
 
 ---
 
