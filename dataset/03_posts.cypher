@@ -2,7 +2,7 @@
 MATCH (rafael: User {user_id: 1})
 CREATE (rafael)-[:CREATED {at: date("2025-11-22")}]->(:Post {
         post_id: 101,
-        content: "My son was burned!",
+        content: "My son was born!",
         created_at: date("2025-11-22")
 });
 
